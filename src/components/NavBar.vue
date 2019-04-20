@@ -8,7 +8,7 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto topnav">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
@@ -54,6 +54,10 @@ nav {
   background-color: rgba(0,0,0,0.8) !important;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #cd65b5;
+}
+
 /* Navbar elements */
 .navbar-nav > li > a {
   text-transform: uppercase;
@@ -61,9 +65,6 @@ nav {
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 1px;
-  &:hover {
-    color: #cd65b5;
-  }
 }
 
 .navbar-brand {
@@ -71,10 +72,6 @@ nav {
   color: rgba(255,255,255,0.8);
   font-weight: 600;
   text-transform: uppercase;
-}
-
-.navbar-brand:hover {
-  color: #cd65b5;
 }
 
 .navbar-toggler {
